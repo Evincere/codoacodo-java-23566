@@ -26,6 +26,8 @@ public class Main {
 		
 		Suma calculadora = new Suma();
 		
+		// int resultadoBis = Suma.sumar(numeroUno, numeroDos);
+		
 		int resultadoBis = calculadora.sumar(48, 22);
 		
 		System.out.println("El resultado utilizando el metodo es :" + resultadoBis);
