@@ -1,4 +1,4 @@
-package archivos;
+package clase08_File.src.main;
 
 import java.io.File;
 import java.io.FileReader;
@@ -12,7 +12,7 @@ public class Main {
 		// nombre del archivo y su ubicacion
 
 		String nombreArchivo = "data.txt";
-		String ubicacion = System.getProperty("user.dir") + "/src/main/resources/";
+		String ubicacion = System.getProperty("user.dir") + "\\";
 
 		// método para crear el archivo si no existe
 
