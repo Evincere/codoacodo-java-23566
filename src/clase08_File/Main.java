@@ -1,4 +1,5 @@
-package clase08_File.src.main;
+package clase08_File;
+
 
 import java.io.File;
 import java.io.FileReader;
@@ -12,7 +13,7 @@ public class Main {
 		// nombre del archivo y su ubicacion
 
 		String nombreArchivo = "data.txt";
-		String ubicacion = System.getProperty("user.dir") + "\\";
+		String ubicacion = System.getProperty("user.dir") + File.separator;
 
 		// método para crear el archivo si no existe
 
